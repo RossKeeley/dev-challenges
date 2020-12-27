@@ -1,0 +1,185 @@
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 237px; /* 0 width - change this with JavaScript */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #FAFBFD;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px; /* Place content 40px from the top */
+}
+
+.navTitle {
+  padding: 20px 0px 45px 48px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #111;
+}
+
+.navTitle span {
+  color: #F7542E;
+}
+
+.sidenav a {
+  padding: 45px 0px 45px 48px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+
+  color: #9E9E9E;
+}
+
+main {
+  padding: 40px  0  0 300px;
+}
+
+.button1container {
+  position: absolute;
+  left: 319px;
+  top: 141px;
+}
+
+.button1 {
+  width: 81px;
+  height: 36px;
+
+  background: #E0E0E0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+}
+
+.button2container {
+  position: absolute;
+  left: 555px;
+  top: 141px;
+}
+
+.button2 {
+  width: 81px;
+  height: 36px;
+
+  background: #AEAEAE;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+}
+
+.button3container {
+  position: absolute;
+  left: 319px;
+  top: 246px;
+}
+
+.button3 {
+  width: 88px;
+  height: 36px;
+
+  border: 1px solid #3D5AFE;
+  border-radius: 6px;
+}
+
+.button4container {
+  position: absolute;
+  left: 555px;
+  top: 246px;
+}
+
+.button4 {
+  width: 88px;
+  height: 36px;
+
+  background: rgba(41, 98, 255, 0.1);
+  border: 1px solid #3D5AFE;
+  border-radius: 6px;
+}
+
+.button5container {
+  position: absolute;
+  left: 319px;
+  top: 351px;
+}
+
+.button5 {
+  width: 88px;
+  height: 36px;
+}
+
+.button6container {
+  position: absolute;
+  left: 555px;
+  top: 351px;
+}
+
+.button6 {
+  width: 88px;
+  height: 36px;
+
+  background: rgba(41, 98, 255, 0.1);
+  border-radius: 6px;
+}
+
+.button7container {
+  position: absolute;
+  left: 319px;
+  top: 453px;
+}
+
+.button7 {
+  width: 81px;
+  height: 36px;
+
+  background: #3D5AFE;
+  border-radius: 6px;
+}
+
+.button8container {
+  position: absolute;
+  left: 319px;
+  top: 558px;
+}
+
+.button8 {
+  width: 88px;
+  height: 36px;
+
+  background: #E0E0E0;
+  border-radius: 6px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.welcome {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.welcome-text {
+  margin-top: 30vh;
+  font-weight: 500;
+}
+
+.welcome-text p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.welcome-text h1 {
+  font-size: 1.5rem;
+}
+
+.welcome-text a {
+  color: #f7542e;
+}
