@@ -40,9 +40,9 @@
       <a href="#" class="logo">Portfolio</a>
       <div class="toggle"></div>
       <ul>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Projects</li>
+        <li><a href="#home" class="homeButton"></a>Home</li>
+        <li><a href="#about" class="aboutButton"></a>About</li>
+        <li><a href="#projects" class="projectsButton"></a>Projects</li>
         <li><a href="#"></a>Contact</li>
         <li><a href="#"></a>Hire Me</li>
       </ul>
@@ -52,12 +52,14 @@
       <div class="textBox">
         <h2>Hi, my name is <br><span>Ross James Keeley</span></h2>
         <h3>JavaScript Developer based in London</h3>
-        <a href="#" class="btn">ABOUT</a>
-        <a href="#project" class="btn">PROJECTS</a>
+        <a href="#about" class="btn">ABOUT</a>
+        <a href="#projects" class="btn">PROJECTS</a>
         <a href="#" class="btn">CONTACT</a>
       </div>
     </section>
+
     <section class="about">
+      <a href="#" id="about"></a>
       <div class="heading">
         <h2>About Me</h2>
       </div>
@@ -67,7 +69,7 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sapien ut eros rutrum, in pharetra enim feugiat. Donec vel sagittis dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vestibulum ornare mattis. Cras fermentum ex at sapien dignissim pharetra. In porta augue nulla, ut vehicula augue accumsan et. Pellentesque vitae purus non quam blandit scelerisque. Aliquam malesuada lacinia varius. Etiam luctus leo ut odio ullamcorper elementum. Quisque luctus vel purus vitae fringilla. Vestibulum commodo malesuada tincidunt. Cras blandit tempor dolor sit amet pulvinar. Quisque lobortis lacus sit amet augue feugiat, quis laoreet nisl varius. Donec venenatis velit id leo pretium rutrum. Nunc ut velit a lectus condimentum ultrices ac sit amet quam.
             <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sapien ut eros rutrum, in pharetra enim feugiat. Donec vel sagittis dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vestibulum ornare mattis. Cras fermentum ex at sapien dignissim pharetra. In porta augue nulla, ut vehicula augue accumsan et. Pellentesque vitae purus non quam blandit scelerisque. Aliquam malesuada lacinia varius. Etiam luctus leo ut odio ullamcorper elementum. Quisque luctus vel purus vitae fringilla. Vestibulum commodo malesuada tincidunt. Cras blandit tempor dolor sit amet pulvinar. Quisque lobortis lacus sit amet augue feugiat, quis laoreet nisl varius. Donec venenatis velit id leo pretium rutrum. Nunc ut velit a lectus condimentum ultrices ac sit amet quam.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sapien ut eros rutrum, in pharetra enim feugiat. Donec vel sagittis dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vestibulum ornare mattis. Cras fermentum ex at sapien dignissim pharetra. In porta augue nulla, ut vehicula augue accumsan et.
           </p>
         </div>
         <div class="w50">
@@ -76,7 +78,30 @@
       </div>
     </section>
 
-    <div class="project_card">
+    <section class="projects">
+      <a href="#" id="projects"></a>
+      <div class="heading">
+        <h2>My Projects</h2>
+      </div>
+      <div class="projectCards">
+        <div class="card">
+          <h1></h1>
+          <a href="#"></a>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sapien ut eros rutrum, in pharetra enim feugiat. Donec vel sagittis dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vestibulum ornare mattis. Cras fermentum ex at sapien dignissim pharetra. In porta augue nulla, ut vehicula augue accumsan et. Pellentesque vitae purus non quam blandit scelerisque. Aliquam malesuada lacinia varius. Etiam luctus leo ut odio ullamcorper elementum. Quisque luctus vel purus vitae fringilla. Vestibulum commodo malesuada tincidunt. Cras blandit tempor dolor sit amet pulvinar. Quisque lobortis lacus sit amet augue feugiat, quis laoreet nisl varius. Donec venenatis velit id leo pretium rutrum. Nunc ut velit a lectus condimentum ultrices ac sit amet quam.
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sapien ut eros rutrum, in pharetra enim feugiat. Donec vel sagittis dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vestibulum ornare mattis. Cras fermentum ex at sapien dignissim pharetra. In porta augue nulla, ut vehicula augue accumsan et.</p>
+      </div>
+
+    </section>
+
+    <script type="text/javascript">
+      window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+      });
+    </script>
+    <!-- <div class="project_card">
       <a href="#" id="project"></a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sapien ut eros rutrum, in pharetra enim feugiat. Donec vel sagittis dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vestibulum ornare mattis. Cras fermentum ex at sapien dignissim pharetra. In porta augue nulla, ut vehicula augue accumsan et. Pellentesque vitae purus non quam blandit scelerisque. Aliquam malesuada lacinia varius. Etiam luctus leo ut odio ullamcorper elementum. Quisque luctus vel purus vitae fringilla. Vestibulum commodo malesuada tincidunt. Cras blandit tempor dolor sit amet pulvinar. Quisque lobortis lacus sit amet augue feugiat, quis laoreet nisl varius. Donec venenatis velit id leo pretium rutrum. Nunc ut velit a lectus condimentum ultrices ac sit amet quam.
@@ -96,6 +121,6 @@
 Donec at nisl libero. Aliquam sed ligula enim. Phasellus ac posuere risus, id pellentesque ligula. Donec sed ligula id ligula tincidunt tempor nec id turpis. Cras eu malesuada sapien. Aenean consectetur scelerisque ipsum, vel lobortis justo viverra luctus. Nam varius, nisi quis imperdiet lacinia, lorem leo ultricies massa, sed porta velit magna id ipsum. Mauris hendrerit leo nisi, a pellentesque tortor ornare eget. Vestibulum pulvinar, leo pellentesque porttitor gravida, nunc odio malesuada lacus, vel condimentum sem lacus eget turpis. Maecenas aliquet eros at lorem mattis, quis finibus nulla placerat. Etiam ac tristique ligula. Sed a justo quis ligula elementum molestie eget ac lectus. Vivamus sed sem vel metus finibus ultricies. Sed eu nulla erat. Donec a lectus vehicula, tincidunt velit sed, sagittis lacus.
         </p>
 
-      </div>
+      </div> -->
   </body>
 </html>

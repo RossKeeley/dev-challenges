@@ -82,6 +82,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.5s;
+}
+
+header.sticky {
+  background: #fff;
+  padding: 20px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
@@ -93,6 +100,10 @@ header .logo {
   letter-spacing: 2px;
 }
 
+header.sticky .logo {
+  color: #111;
+}
+
 header ul {
   position: relative;
   display: flex;
@@ -101,6 +112,11 @@ header ul {
 header ul li {
   position: relative;
   list-style: none;
+  color: #fff;
+}
+
+header.sticky ul li {
+  color: #111;
 }
 
 header ul li a {
@@ -110,6 +126,10 @@ header ul li a {
   margin: 0 15px;
   text-decoration: none;
 }
+
+/*header.sticky ul li a .aboutbutton {
+  color: #fff;
+}*/
 
 .heading {
   width: 100%;
@@ -124,7 +144,7 @@ header ul li a {
 }
 
 .content {
-  diaplay: flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -143,4 +163,8 @@ header ul li a {
 
 img {
   max-width: 100%;
+}
+
+.card {
+
 }
