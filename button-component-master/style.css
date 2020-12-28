@@ -271,11 +271,12 @@ main {
 }
 
 .fb-button {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 
   background: #4267B2;
   border: none;
+  border-radius: 8px;
 }
 
 .fb-button .fa {
@@ -289,11 +290,12 @@ main {
 }
 
 .twitter-button {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 
   background: #1DA1F2;
   border: none;
+  border-radius: 8px;
 }
 
 .twitter-button .fa {
@@ -310,8 +312,9 @@ main {
   width: 40px;
   height: 40px;
 
-  background: #DD2A7B;
+  background-image: linear-gradient(to bottom right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
   border: none;
+  border-radius: 8px;
 }
 
 .insta-button .fa {
@@ -330,6 +333,7 @@ main {
 
   background: #0072b1;
   border: none;
+  border-radius: 8px;
 }
 
 .linkedIn-button .fa {
